@@ -23,7 +23,7 @@ appveyor = { repository = "matthewkmayer/rusoto", branch = "master" }
 azure-devops = { project = "matthewkmayer/Rusoto", pipeline = "rusoto.rusoto", build="1" }
 
 [build-dependencies]
-rustc_version = "0.2"
+rustc_version = "0.3"
 
 [dependencies]
 async-trait = "0.1"
@@ -56,8 +56,8 @@ version = "0.45.0"
 
 [dev-dependencies]
 tokio = { version = "0.2", features = ["macros"] }
-env_logger = "0.7"
-rand = "0.7"
+env_logger = "0.8"
+rand = "0.8"
 serde_json = "1.0.1"
 serde_test = "1.0.1"
 

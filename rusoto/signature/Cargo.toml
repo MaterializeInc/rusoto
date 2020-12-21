@@ -21,12 +21,12 @@ appveyor = { repository = "matthewkmayer/rusoto", branch = "master" }
 azure-devops = { project = "matthewkmayer/Rusoto", pipeline = "rusoto.rusoto", build="1" }
 
 [build-dependencies]
-rustc_version = "0.2"
+rustc_version = "0.3"
 
 [dependencies]
 bytes = "0.5"
 futures = "0.3"
-hmac = "0.9"
+hmac = "0.10"
 http = "0.2"
 hyper = "0.13.1"
 log = "0.4.1"
