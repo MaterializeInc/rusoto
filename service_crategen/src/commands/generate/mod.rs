@@ -86,8 +86,8 @@ pub fn generate_services(
 
         let mut features = BTreeMap::new();
         features.insert("default".into(), vec!["native-tls".into()]);
-        features.insert("native-tls".into(), vec!["rusoto_core/native-tls".into()]);
-        features.insert("rustls".into(), vec!["rusoto_core/rustls".into()]);
+        features.insert("native-tls".into(), vec!["mz_rusoto_core/native-tls".into()]);
+        features.insert("rustls".into(), vec!["mz_rusoto_core/rustls".into()]);
 
         let mut serialize_feature_dependencies = vec!["bytes/serde".into()];
 
@@ -128,14 +128,14 @@ pub fn generate_services(
                     "Nikita Pekin <contact@nikitapek.in>".into()
                 ]),
                 description: Some(format!("AWS SDK for Rust - {} @ {}", service.full_name(), service.api_version())),
-                documentation: Some(format!("https://docs.rs/{}", crate_name)),
+                documentation: Some(format!("https://docs.rs/mz_{}", crate_name)),
                 keywords: Some(vec!["AWS".into(), "Amazon".into(), name_for_keyword]),
                 license: Some("MIT".into()),
-                name: crate_name.clone(),
+                name: format!("mz_{}", crate_name),
                 readme: Some("README.md".into()),
-                repository: Some("https://github.com/rusoto/rusoto".into()),
+                repository: Some("https://github.com/MaterializeInc/rusoto".into()),
                 version: service_config.version.clone(),
-                homepage: Some("https://www.rusoto.org/".into()),
+                homepage: None,
                 edition: "2018".into(),
                 exclude: Some(vec!["test_resources/*".into()]),
                 metadata: toml::toml! {
@@ -146,6 +146,9 @@ pub fn generate_services(
             features: Some(features),
             dependencies: service_dependencies,
             dev_dependencies: service_dev_dependencies,
+            lib: cargo::Lib {
+                name: crate_name.clone(),
+            },
             ..cargo::Manifest::default()
         };
 
@@ -164,6 +167,17 @@ pub fn generate_services(
 # Rusoto {short_name}
 Rust SDK for {aws_name}
 
+⚠️ **This is the [Materialize](https://materialize.com) fork of Rusoto.** ⚠️
+
+Rusoto has been [unmaintained for several months](https://github.com/rusoto/rusoto/issues/1651).
+We expect that Amazon will soon announce plans to take over Rusoto or release
+an official Rust SDK. In the meantime, we are performing a minimal amount of
+maintenance. We will accept dependency bumps and obvious bug fixes.
+
+Crates are published with an "mz" prefix, as in `mz_rusoto_core`.
+
+---
+
 You may be looking for:
 
 * [An overview of Rusoto][rusoto-overview]
@@ -181,11 +195,11 @@ On Linux, OpenSSL is required.
 
 ## Installation
 
-To use `{crate_name}` in your application, add it as a dependency in your `Cargo.toml`:
+To use `mz_{crate_name}` in your application, add it as a dependency in your `Cargo.toml`:
 
 ```toml
 [dependencies]
-{crate_name} = "{version}"
+mz_{crate_name} = "{version}"
 ```
 
 ## Crate Features
@@ -206,7 +220,7 @@ Rusoto is distributed under the terms of the MIT license.
 
 See [LICENSE][license] for details.
 
-[api-documentation]: https://docs.rs/{crate_name} "API documentation"
+[api-documentation]: https://docs.rs/mz_{crate_name} "API documentation"
 [license]: https://github.com/rusoto/rusoto/blob/master/LICENSE "MIT License"
 [contributing]: https://github.com/rusoto/rusoto/blob/master/CONTRIBUTING.md "Contributing Guide"
 [rusoto-help]: https://www.rusoto.org/help.html "Getting help with Rusoto"

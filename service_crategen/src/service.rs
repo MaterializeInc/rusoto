@@ -136,7 +136,7 @@ impl<'b> Service<'b> {
             },
         );
         dependencies.insert(
-            "rusoto_core".to_owned(),
+            "mz_rusoto_core".to_owned(),
             cargo::Dependency::Extended {
                 path: Some("../../core".into()),
                 version: Some(self.config.core_version.clone()),
@@ -244,7 +244,7 @@ impl<'b> Service<'b> {
         let mut dev_dependencies = BTreeMap::new();
 
         dev_dependencies.insert(
-            "rusoto_mock".to_owned(),
+            "mz_rusoto_mock".to_owned(),
             cargo::Dependency::Extended {
                 path: Some("../../../mock".into()),
                 version: Some(self.config.core_version.clone()),

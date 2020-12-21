@@ -2,6 +2,17 @@
 # Rusoto Sts
 Rust SDK for AWS Security Token Service
 
+⚠️ **This is the [Materialize](https://materialize.com) fork of Rusoto.** ⚠️
+
+Rusoto has been [unmaintained for several months](https://github.com/rusoto/rusoto/issues/1651).
+We expect that Amazon will soon announce plans to take over Rusoto or release
+an official Rust SDK. In the meantime, we are performing a minimal amount of
+maintenance. We will accept dependency bumps and obvious bug fixes.
+
+Crates are published with an "mz" prefix, as in `mz_rusoto_core`.
+
+---
+
 You may be looking for:
 
 * [An overview of Rusoto][rusoto-overview]
@@ -19,11 +30,11 @@ On Linux, OpenSSL is required.
 
 ## Installation
 
-To use `rusoto_sts` in your application, add it as a dependency in your `Cargo.toml`:
+To use `mz_rusoto_sts` in your application, add it as a dependency in your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rusoto_sts = "0.45.0"
+mz_rusoto_sts = "0.45.0"
 ```
 
 ## Crate Features
@@ -44,7 +55,7 @@ Rusoto is distributed under the terms of the MIT license.
 
 See [LICENSE][license] for details.
 
-[api-documentation]: https://docs.rs/rusoto_sts "API documentation"
+[api-documentation]: https://docs.rs/mz_rusoto_sts "API documentation"
 [license]: https://github.com/rusoto/rusoto/blob/master/LICENSE "MIT License"
 [contributing]: https://github.com/rusoto/rusoto/blob/master/CONTRIBUTING.md "Contributing Guide"
 [rusoto-help]: https://www.rusoto.org/help.html "Getting help with Rusoto"

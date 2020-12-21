@@ -1,5 +1,16 @@
 # ![Rusoto](./assets/logo-wide.png)
 
+⚠️ **This is the [Materialize](https://materialize.com) fork of Rusoto.** ⚠️
+
+Rusoto has been [unmaintained for several months](https://github.com/rusoto/rusoto/issues/1651).
+We expect that Amazon will soon announce plans to take over Rusoto or release
+an official Rust SDK. In the meantime, we are performing a minimal amount of
+maintenance. We will accept dependency bumps and obvious bug fixes.
+
+Crates are published with an "mz" prefix, as in `mz_rusoto_core`.
+
+---
+
 <table>
     <tr>
         <td><strong>Linux / OS X</strong></td>
@@ -45,9 +56,9 @@ For example, to include only S3 and SQS:
 
 ```toml
 [dependencies]
-rusoto_core = "0.45.0"
-rusoto_sqs = "0.45.0"
-rusoto_s3 = "0.45.0"
+mz_rusoto_core = "0.45.0"
+mz_rusoto_sqs = "0.45.0"
+mz_rusoto_s3 = "0.45.0"
 ```
 
 ## Migration notes

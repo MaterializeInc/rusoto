@@ -9,7 +9,7 @@ description = "AWS SDK for Rust - Request Mocking Helpers"
 documentation = "https://docs.rs/rusoto_mock"
 keywords = ["AWS", "Amazon", "mock", "testing"]
 license = "MIT"
-name = "rusoto_mock"
+name = "mz_rusoto_mock"
 repository = "https://github.com/rusoto/rusoto"
 version = "0.45.0"
 homepage = "https://www.rusoto.org/"
@@ -17,6 +17,9 @@ categories = [
   "development-tools::testing"
 ]
 edition = "2018"
+
+[lib]
+name = "rusoto_mock"
 
 [badges]
 appveyor = { repository = "matthewkmayer/rusoto", branch = "master" }
@@ -30,16 +33,16 @@ http = "0.2"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
-[dependencies.rusoto_core]
+[dependencies.mz_rusoto_core]
 path = "../rusoto/core"
 version = "0.45.0"
 default_features = false
 
 [features]
-nightly-testing = ["rusoto_core/nightly-testing"]
+nightly-testing = ["mz_rusoto_core/nightly-testing"]
 unstable = []
-rustls = ["rusoto_core/rustls"]
-native-tls = ["rusoto_core/native-tls"]
+rustls = ["mz_rusoto_core/rustls"]
+native-tls = ["mz_rusoto_core/native-tls"]
 default = ["native-tls"]
 
 [package.metadata.docs.rs]
