@@ -34,7 +34,7 @@ To use `mz_rusoto_resourcegroupstaggingapi` in your application, add it as a dep
 
 ```toml
 [dependencies]
-mz_rusoto_resourcegroupstaggingapi = "0.45.0"
+mz_rusoto_resourcegroupstaggingapi = "0.46.0"
 ```
 
 ## Crate Features

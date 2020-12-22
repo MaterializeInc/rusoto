@@ -34,7 +34,7 @@ To use `mz_rusoto_sms_voice` in your application, add it as a dependency in your
 
 ```toml
 [dependencies]
-mz_rusoto_sms_voice = "0.45.0"
+mz_rusoto_sms_voice = "0.46.0"
 ```
 
 ## Crate Features

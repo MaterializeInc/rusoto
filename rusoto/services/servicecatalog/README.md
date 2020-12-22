@@ -34,7 +34,7 @@ To use `mz_rusoto_servicecatalog` in your application, add it as a dependency in
 
 ```toml
 [dependencies]
-mz_rusoto_servicecatalog = "0.45.0"
+mz_rusoto_servicecatalog = "0.46.0"
 ```
 
 ## Crate Features

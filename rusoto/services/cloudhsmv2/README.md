@@ -34,7 +34,7 @@ To use `mz_rusoto_cloudhsmv2` in your application, add it as a dependency in you
 
 ```toml
 [dependencies]
-mz_rusoto_cloudhsmv2 = "0.45.0"
+mz_rusoto_cloudhsmv2 = "0.46.0"
 ```
 
 ## Crate Features

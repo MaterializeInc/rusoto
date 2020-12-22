@@ -34,7 +34,7 @@ To use `mz_rusoto_xray` in your application, add it as a dependency in your `Car
 
 ```toml
 [dependencies]
-mz_rusoto_xray = "0.45.0"
+mz_rusoto_xray = "0.46.0"
 ```
 
 ## Crate Features

@@ -34,7 +34,7 @@ To use `mz_rusoto_redshift` in your application, add it as a dependency in your 
 
 ```toml
 [dependencies]
-mz_rusoto_redshift = "0.45.0"
+mz_rusoto_redshift = "0.46.0"
 ```
 
 ## Crate Features

@@ -34,7 +34,7 @@ To use `mz_rusoto_medialive` in your application, add it as a dependency in your
 
 ```toml
 [dependencies]
-mz_rusoto_medialive = "0.45.0"
+mz_rusoto_medialive = "0.46.0"
 ```
 
 ## Crate Features

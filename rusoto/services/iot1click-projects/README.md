@@ -34,7 +34,7 @@ To use `mz_rusoto_iot1click_projects` in your application, add it as a dependenc
 
 ```toml
 [dependencies]
-mz_rusoto_iot1click_projects = "0.45.0"
+mz_rusoto_iot1click_projects = "0.46.0"
 ```
 
 ## Crate Features

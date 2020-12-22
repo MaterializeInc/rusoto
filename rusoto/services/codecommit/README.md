@@ -34,7 +34,7 @@ To use `mz_rusoto_codecommit` in your application, add it as a dependency in you
 
 ```toml
 [dependencies]
-mz_rusoto_codecommit = "0.45.0"
+mz_rusoto_codecommit = "0.46.0"
 ```
 
 ## Crate Features

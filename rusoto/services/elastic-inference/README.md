@@ -34,7 +34,7 @@ To use `mz_rusoto_elastic_inference` in your application, add it as a dependency
 
 ```toml
 [dependencies]
-mz_rusoto_elastic_inference = "0.45.0"
+mz_rusoto_elastic_inference = "0.46.0"
 ```
 
 ## Crate Features

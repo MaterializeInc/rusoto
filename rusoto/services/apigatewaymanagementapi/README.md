@@ -34,7 +34,7 @@ To use `mz_rusoto_apigatewaymanagementapi` in your application, add it as a depe
 
 ```toml
 [dependencies]
-mz_rusoto_apigatewaymanagementapi = "0.45.0"
+mz_rusoto_apigatewaymanagementapi = "0.46.0"
 ```
 
 ## Crate Features

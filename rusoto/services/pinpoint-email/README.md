@@ -34,7 +34,7 @@ To use `mz_rusoto_pinpoint_email` in your application, add it as a dependency in
 
 ```toml
 [dependencies]
-mz_rusoto_pinpoint_email = "0.45.0"
+mz_rusoto_pinpoint_email = "0.46.0"
 ```
 
 ## Crate Features

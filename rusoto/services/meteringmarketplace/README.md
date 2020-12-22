@@ -34,7 +34,7 @@ To use `mz_rusoto_meteringmarketplace` in your application, add it as a dependen
 
 ```toml
 [dependencies]
-mz_rusoto_meteringmarketplace = "0.45.0"
+mz_rusoto_meteringmarketplace = "0.46.0"
 ```
 
 ## Crate Features

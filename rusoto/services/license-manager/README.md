@@ -34,7 +34,7 @@ To use `mz_rusoto_license_manager` in your application, add it as a dependency i
 
 ```toml
 [dependencies]
-mz_rusoto_license_manager = "0.45.0"
+mz_rusoto_license_manager = "0.46.0"
 ```
 
 ## Crate Features

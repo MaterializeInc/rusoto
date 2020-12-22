@@ -11,7 +11,7 @@ keywords = ["AWS", "Amazon", "mock", "testing"]
 license = "MIT"
 name = "mz_rusoto_mock"
 repository = "https://github.com/rusoto/rusoto"
-version = "0.45.0"
+version = "0.46.0"
 homepage = "https://www.rusoto.org/"
 categories = [
   "development-tools::testing"
@@ -35,7 +35,7 @@ serde_json = "1.0"
 
 [dependencies.mz_rusoto_core]
 path = "../rusoto/core"
-version = "0.45.0"
+version = "0.46.0"
 default_features = false
 
 [features]
