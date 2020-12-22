@@ -6,11 +6,11 @@ edition = "2018"
 publish = false
 
 [dependencies]
-rusoto_core = { path = "../rusoto/core" }
-rusoto_credential = { path = "../rusoto/credential" }
-rusoto_dynamodb = { path = "../rusoto/services/dynamodb" }
-rusoto_ec2 = { path = "../rusoto/services/ec2" }
-rusoto_sts = { path = "../rusoto/services/sts" }
+mz_rusoto_core = { path = "../rusoto/core" }
+mz_rusoto_credential = { path = "../rusoto/credential" }
+mz_rusoto_dynamodb = { path = "../rusoto/services/dynamodb" }
+mz_rusoto_ec2 = { path = "../rusoto/services/ec2" }
+mz_rusoto_sts = { path = "../rusoto/services/sts" }
 
 doc-comment = "0.3"
 env_logger = "0.5"

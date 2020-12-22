@@ -22,630 +22,630 @@ codegen-units = 2
 debug = false
 
 [dependencies]
-rusoto_credential = { path = "../rusoto/credential" }
-rusoto_core = { path = "../rusoto/core", default-features = false }
+mz_rusoto_credential = { path = "../rusoto/credential" }
+mz_rusoto_core = { path = "../rusoto/core", default-features = false }
 
-[dependencies.rusoto_acm]
+[dependencies.mz_rusoto_acm]
 optional = true
 path = "../rusoto/services/acm"
 
-[dependencies.rusoto_acm_pca]
+[dependencies.mz_rusoto_acm_pca]
 optional = true
 path = "../rusoto/services/acm-pca"
 
-[dependencies.rusoto_alexaforbusiness]
+[dependencies.mz_rusoto_alexaforbusiness]
 optional = true
 path = "../rusoto/services/alexaforbusiness"
 
-[dependencies.rusoto_apigateway]
+[dependencies.mz_rusoto_apigateway]
 optional = true
 path = "../rusoto/services/apigateway"
 
-[dependencies.rusoto_application_autoscaling]
+[dependencies.mz_rusoto_application_autoscaling]
 optional = true
 path = "../rusoto/services/application-autoscaling"
 
-[dependencies.rusoto_appmesh]
+[dependencies.mz_rusoto_appmesh]
 optional = true
 path = "../rusoto/services/appmesh"
 
-[dependencies.rusoto_appstream]
+[dependencies.mz_rusoto_appstream]
 optional = true
 path = "../rusoto/services/appstream"
 
-[dependencies.rusoto_appsync]
+[dependencies.mz_rusoto_appsync]
 optional = true
 path = "../rusoto/services/appsync"
 
-[dependencies.rusoto_athena]
+[dependencies.mz_rusoto_athena]
 optional = true
 path = "../rusoto/services/athena"
 
-[dependencies.rusoto_autoscaling]
+[dependencies.mz_rusoto_autoscaling]
 optional = true
 path = "../rusoto/services/autoscaling"
 
-[dependencies.rusoto_autoscaling_plans]
+[dependencies.mz_rusoto_autoscaling_plans]
 optional = true
 path = "../rusoto/services/autoscaling-plans"
 
-[dependencies.rusoto_batch]
+[dependencies.mz_rusoto_batch]
 optional = true
 path = "../rusoto/services/batch"
 
-[dependencies.rusoto_budgets]
+[dependencies.mz_rusoto_budgets]
 optional = true
 path = "../rusoto/services/budgets"
 
-[dependencies.rusoto_ce]
+[dependencies.mz_rusoto_ce]
 optional = true
 path = "../rusoto/services/ce"
 
-[dependencies.rusoto_chime]
+[dependencies.mz_rusoto_chime]
 optional = true
 path = "../rusoto/services/chime"
 
-[dependencies.rusoto_cloud9]
+[dependencies.mz_rusoto_cloud9]
 optional = true
 path = "../rusoto/services/cloud9"
 
-[dependencies.rusoto_clouddirectory]
+[dependencies.mz_rusoto_clouddirectory]
 optional = true
 path = "../rusoto/services/clouddirectory"
 
-[dependencies.rusoto_cloudformation]
+[dependencies.mz_rusoto_cloudformation]
 optional = true
 path = "../rusoto/services/cloudformation"
 
-[dependencies.rusoto_cloudfront]
+[dependencies.mz_rusoto_cloudfront]
 optional = true
 path = "../rusoto/services/cloudfront"
 
-[dependencies.rusoto_cloudhsm]
+[dependencies.mz_rusoto_cloudhsm]
 optional = true
 path = "../rusoto/services/cloudhsm"
 
-[dependencies.rusoto_cloudhsmv2]
+[dependencies.mz_rusoto_cloudhsmv2]
 optional = true
 path = "../rusoto/services/cloudhsmv2"
 
-[dependencies.rusoto_cloudsearch]
+[dependencies.mz_rusoto_cloudsearch]
 optional = true
 path = "../rusoto/services/cloudsearch"
 
-[dependencies.rusoto_cloudsearchdomain]
+[dependencies.mz_rusoto_cloudsearchdomain]
 optional = true
 path = "../rusoto/services/cloudsearchdomain"
 
-[dependencies.rusoto_cloudtrail]
+[dependencies.mz_rusoto_cloudtrail]
 optional = true
 path = "../rusoto/services/cloudtrail"
 
-[dependencies.rusoto_cloudwatch]
+[dependencies.mz_rusoto_cloudwatch]
 optional = true
 path = "../rusoto/services/cloudwatch"
 
-[dependencies.rusoto_codebuild]
+[dependencies.mz_rusoto_codebuild]
 optional = true
 path = "../rusoto/services/codebuild"
 
-[dependencies.rusoto_codecommit]
+[dependencies.mz_rusoto_codecommit]
 optional = true
 path = "../rusoto/services/codecommit"
 
-[dependencies.rusoto_codedeploy]
+[dependencies.mz_rusoto_codedeploy]
 optional = true
 path = "../rusoto/services/codedeploy"
 
-[dependencies.rusoto_codepipeline]
+[dependencies.mz_rusoto_codepipeline]
 optional = true
 path = "../rusoto/services/codepipeline"
 
-[dependencies.rusoto_codestar]
+[dependencies.mz_rusoto_codestar]
 optional = true
 path = "../rusoto/services/codestar"
 
-[dependencies.rusoto_cognito_identity]
+[dependencies.mz_rusoto_cognito_identity]
 optional = true
 path = "../rusoto/services/cognito-identity"
 
-[dependencies.rusoto_cognito_idp]
+[dependencies.mz_rusoto_cognito_idp]
 optional = true
 path = "../rusoto/services/cognito-idp"
 
-[dependencies.rusoto_cognito_sync]
+[dependencies.mz_rusoto_cognito_sync]
 optional = true
 path = "../rusoto/services/cognito-sync"
 
-[dependencies.rusoto_comprehend]
+[dependencies.mz_rusoto_comprehend]
 optional = true
 path = "../rusoto/services/comprehend"
 
-[dependencies.rusoto_comprehendmedical]
+[dependencies.mz_rusoto_comprehendmedical]
 optional = true
 path = "../rusoto/services/comprehendmedical"
 
-[dependencies.rusoto_config]
+[dependencies.mz_rusoto_config]
 optional = true
 path = "../rusoto/services/config"
 
-[dependencies.rusoto_connect]
+[dependencies.mz_rusoto_connect]
 optional = true
 path = "../rusoto/services/connect"
 
-[dependencies.rusoto_cur]
+[dependencies.mz_rusoto_cur]
 optional = true
 path = "../rusoto/services/cur"
 
-[dependencies.rusoto_datapipeline]
+[dependencies.mz_rusoto_datapipeline]
 optional = true
 path = "../rusoto/services/datapipeline"
 
-[dependencies.rusoto_dax]
+[dependencies.mz_rusoto_dax]
 optional = true
 path = "../rusoto/services/dax"
 
-[dependencies.rusoto_devicefarm]
+[dependencies.mz_rusoto_devicefarm]
 optional = true
 path = "../rusoto/services/devicefarm"
 
-[dependencies.rusoto_directconnect]
+[dependencies.mz_rusoto_directconnect]
 optional = true
 path = "../rusoto/services/directconnect"
 
-[dependencies.rusoto_discovery]
+[dependencies.mz_rusoto_discovery]
 optional = true
 path = "../rusoto/services/discovery"
 
-[dependencies.rusoto_dms]
+[dependencies.mz_rusoto_dms]
 optional = true
 path = "../rusoto/services/dms"
 
-[dependencies.rusoto_docdb]
+[dependencies.mz_rusoto_docdb]
 optional = true
 path = "../rusoto/services/docdb"
 
-[dependencies.rusoto_ds]
+[dependencies.mz_rusoto_ds]
 optional = true
 path = "../rusoto/services/ds"
 
-[dependencies.rusoto_dynamodb]
+[dependencies.mz_rusoto_dynamodb]
 optional = true
 path = "../rusoto/services/dynamodb"
 
-[dependencies.rusoto_dynamodbstreams]
+[dependencies.mz_rusoto_dynamodbstreams]
 optional = true
 path = "../rusoto/services/dynamodbstreams"
 
-[dependencies.rusoto_ec2]
+[dependencies.mz_rusoto_ec2]
 optional = true
 path = "../rusoto/services/ec2"
 
-[dependencies.rusoto_ec2_instance_connect]
+[dependencies.mz_rusoto_ec2_instance_connect]
 optional = true
 path = "../rusoto/services/ec2-instance-connect"
 
-[dependencies.rusoto_ecr]
+[dependencies.mz_rusoto_ecr]
 optional = true
 path = "../rusoto/services/ecr"
 
-[dependencies.rusoto_ecs]
+[dependencies.mz_rusoto_ecs]
 optional = true
 path = "../rusoto/services/ecs"
 
-[dependencies.rusoto_elasticache]
+[dependencies.mz_rusoto_elasticache]
 optional = true
 path = "../rusoto/services/elasticache"
 
-[dependencies.rusoto_elasticbeanstalk]
+[dependencies.mz_rusoto_elasticbeanstalk]
 optional = true
 path = "../rusoto/services/elasticbeanstalk"
 
-[dependencies.rusoto_efs]
+[dependencies.mz_rusoto_efs]
 optional = true
 path = "../rusoto/services/efs"
 
-[dependencies.rusoto_eks]
+[dependencies.mz_rusoto_eks]
 optional = true
 path = "../rusoto/services/eks"
 
-[dependencies.rusoto_elastictranscoder]
+[dependencies.mz_rusoto_elastictranscoder]
 optional = true
 path = "../rusoto/services/elastictranscoder"
 
-[dependencies.rusoto_elb]
+[dependencies.mz_rusoto_elb]
 optional = true
 path = "../rusoto/services/elb"
 
-[dependencies.rusoto_elbv2]
+[dependencies.mz_rusoto_elbv2]
 optional = true
 path = "../rusoto/services/elbv2"
 
-[dependencies.rusoto_emr]
+[dependencies.mz_rusoto_emr]
 optional = true
 path = "../rusoto/services/emr"
 
-[dependencies.rusoto_events]
+[dependencies.mz_rusoto_events]
 optional = true
 path = "../rusoto/services/events"
 
-[dependencies.rusoto_firehose]
+[dependencies.mz_rusoto_firehose]
 optional = true
 path = "../rusoto/services/firehose"
 
-[dependencies.rusoto_fms]
+[dependencies.mz_rusoto_fms]
 optional = true
 path = "../rusoto/services/fms"
 
-[dependencies.rusoto_fsx]
+[dependencies.mz_rusoto_fsx]
 optional = true
 path = "../rusoto/services/fsx"
 
-[dependencies.rusoto_gamelift]
+[dependencies.mz_rusoto_gamelift]
 optional = true
 path = "../rusoto/services/gamelift"
 
-[dependencies.rusoto_glacier]
+[dependencies.mz_rusoto_glacier]
 optional = true
 path = "../rusoto/services/glacier"
 
-[dependencies.rusoto_glue]
+[dependencies.mz_rusoto_glue]
 optional = true
 path = "../rusoto/services/glue"
 
-[dependencies.rusoto_greengrass]
+[dependencies.mz_rusoto_greengrass]
 optional = true
 path = "../rusoto/services/greengrass"
 
-[dependencies.rusoto_guardduty]
+[dependencies.mz_rusoto_guardduty]
 optional = true
 path = "../rusoto/services/guardduty"
 
-[dependencies.rusoto_iam]
+[dependencies.mz_rusoto_iam]
 optional = true
 path = "../rusoto/services/iam"
 
-[dependencies.rusoto_importexport]
+[dependencies.mz_rusoto_importexport]
 optional = true
 path = "../rusoto/services/importexport"
 
-[dependencies.rusoto_inspector]
+[dependencies.mz_rusoto_inspector]
 optional = true
 path = "../rusoto/services/inspector"
 
-[dependencies.rusoto_iot]
+[dependencies.mz_rusoto_iot]
 optional = true
 path = "../rusoto/services/iot"
 
-[dependencies.rusoto_iot1click_devices]
+[dependencies.mz_rusoto_iot1click_devices]
 optional = true
 path = "../rusoto/services/iot1click-devices"
 
-[dependencies.rusoto_iot1click_projects]
+[dependencies.mz_rusoto_iot1click_projects]
 optional = true
 path = "../rusoto/services/iot1click-projects"
 
-[dependencies.rusoto_iotanalytics]
+[dependencies.mz_rusoto_iotanalytics]
 optional = true
 path = "../rusoto/services/iotanalytics"
 
-[dependencies.rusoto_iot_data]
+[dependencies.mz_rusoto_iot_data]
 optional = true
 path = "../rusoto/services/iot-data"
 
-[dependencies.rusoto_iot_jobs_data]
+[dependencies.mz_rusoto_iot_jobs_data]
 optional = true
 path = "../rusoto/services/iot-jobs-data"
 
-[dependencies.rusoto_iotsecuretunneling]
+[dependencies.mz_rusoto_iotsecuretunneling]
  optional = true
  path = "../rusoto/services/iotsecuretunneling"
 
-[dependencies.rusoto_kafka]
+[dependencies.mz_rusoto_kafka]
 optional = true
 path = "../rusoto/services/kafka"
 
-[dependencies.rusoto_kinesis]
+[dependencies.mz_rusoto_kinesis]
 optional = true
 path = "../rusoto/services/kinesis"
 
-[dependencies.rusoto_kinesisanalytics]
+[dependencies.mz_rusoto_kinesisanalytics]
 optional = true
 path = "../rusoto/services/kinesisanalytics"
 
-[dependencies.rusoto_kinesisvideo]
+[dependencies.mz_rusoto_kinesisvideo]
 optional = true
 path = "../rusoto/services/kinesisvideo"
 
-[dependencies.rusoto_kinesis_video_media]
+[dependencies.mz_rusoto_kinesis_video_media]
 optional = true
 path = "../rusoto/services/kinesis-video-media"
 
-[dependencies.rusoto_kinesis_video_archived_media]
+[dependencies.mz_rusoto_kinesis_video_archived_media]
 optional = true
 path = "../rusoto/services/kinesis-video-archived-media"
 
-[dependencies.rusoto_kms]
+[dependencies.mz_rusoto_kms]
 optional = true
 path = "../rusoto/services/kms"
 
-[dependencies.rusoto_lambda]
+[dependencies.mz_rusoto_lambda]
 optional = true
 path = "../rusoto/services/lambda"
 
-[dependencies.rusoto_lex_models]
+[dependencies.mz_rusoto_lex_models]
 optional = true
 path = "../rusoto/services/lex-models"
 
-[dependencies.rusoto_license_manager]
+[dependencies.mz_rusoto_license_manager]
 optional = true
 path = "../rusoto/services/license-manager"
 
-[dependencies.rusoto_lightsail]
+[dependencies.mz_rusoto_lightsail]
 optional = true
 path = "../rusoto/services/lightsail"
 
-[dependencies.rusoto_lex_runtime]
+[dependencies.mz_rusoto_lex_runtime]
 optional = true
 path = "../rusoto/services/lex-runtime"
 
-[dependencies.rusoto_logs]
+[dependencies.mz_rusoto_logs]
 optional = true
 path = "../rusoto/services/logs"
 
-[dependencies.rusoto_neptune]
+[dependencies.mz_rusoto_neptune]
 optional = true
 path = "../rusoto/services/neptune"
 
-[dependencies.rusoto_machinelearning]
+[dependencies.mz_rusoto_machinelearning]
 optional = true
 path = "../rusoto/services/machinelearning"
 
-[dependencies.rusoto_macie]
+[dependencies.mz_rusoto_macie]
 optional = true
 path = "../rusoto/services/macie"
 
-[dependencies.rusoto_marketplacecommerceanalytics]
+[dependencies.mz_rusoto_marketplacecommerceanalytics]
 optional = true
 path = "../rusoto/services/marketplacecommerceanalytics"
 
-[dependencies.rusoto_marketplace_entitlement]
+[dependencies.mz_rusoto_marketplace_entitlement]
 optional = true
 path = "../rusoto/services/marketplace-entitlement"
 
-[dependencies.rusoto_mediaconvert]
+[dependencies.mz_rusoto_mediaconvert]
 optional = true
 path = "../rusoto/services/mediaconvert"
 
-[dependencies.rusoto_medialive]
+[dependencies.mz_rusoto_medialive]
 optional = true
 path = "../rusoto/services/medialive"
 
-[dependencies.rusoto_mediapackage]
+[dependencies.mz_rusoto_mediapackage]
 optional = true
 path = "../rusoto/services/mediapackage"
 
-[dependencies.rusoto_mediastore]
+[dependencies.mz_rusoto_mediastore]
 optional = true
 path = "../rusoto/services/mediastore"
 
-[dependencies.rusoto_mediatailor]
+[dependencies.mz_rusoto_mediatailor]
 optional = true
 path = "../rusoto/services/mediatailor"
 
-[dependencies.rusoto_mgh]
+[dependencies.mz_rusoto_mgh]
 optional = true
 path = "../rusoto/services/mgh"
 
-[dependencies.rusoto_mobile]
+[dependencies.mz_rusoto_mobile]
 optional = true
 path = "../rusoto/services/mobile"
 
-[dependencies.rusoto_mq]
+[dependencies.mz_rusoto_mq]
 optional = true
 path = "../rusoto/services/mq"
 
-[dependencies.rusoto_mturk]
+[dependencies.mz_rusoto_mturk]
 optional = true
 path = "../rusoto/services/mturk"
 
-[dependencies.rusoto_opsworks]
+[dependencies.mz_rusoto_opsworks]
 optional = true
 path = "../rusoto/services/opsworks"
 
-[dependencies.rusoto_opsworkscm]
+[dependencies.mz_rusoto_opsworkscm]
 optional = true
 path = "../rusoto/services/opsworkscm"
 
-[dependencies.rusoto_organizations]
+[dependencies.mz_rusoto_organizations]
 optional = true
 path = "../rusoto/services/organizations"
 
-[dependencies.rusoto_pi]
+[dependencies.mz_rusoto_pi]
 optional = true
 path = "../rusoto/services/pi"
 
-[dependencies.rusoto_polly]
+[dependencies.mz_rusoto_polly]
 optional = true
 path = "../rusoto/services/polly"
 
-[dependencies.rusoto_pricing]
+[dependencies.mz_rusoto_pricing]
 optional = true
 path = "../rusoto/services/pricing"
 
-[dependencies.rusoto_redshift]
+[dependencies.mz_rusoto_redshift]
 optional = true
 path = "../rusoto/services/redshift"
 
-[dependencies.rusoto_rekognition]
+[dependencies.mz_rusoto_rekognition]
 optional = true
 path = "../rusoto/services/rekognition"
 
-[dependencies.rusoto_resource_groups]
+[dependencies.mz_rusoto_resource_groups]
 optional = true
 path = "../rusoto/services/resource-groups"
 
-[dependencies.rusoto_resourcegroupstaggingapi]
+[dependencies.mz_rusoto_resourcegroupstaggingapi]
 optional = true
 path = "../rusoto/services/resourcegroupstaggingapi"
 
-[dependencies.rusoto_rds]
+[dependencies.mz_rusoto_rds]
 optional = true
 path = "../rusoto/services/rds"
 
-[dependencies.rusoto_rds_data]
+[dependencies.mz_rusoto_rds_data]
 optional = true
 path = "../rusoto/services/rds-data"
 
-[dependencies.rusoto_route53]
+[dependencies.mz_rusoto_route53]
 optional = true
 path = "../rusoto/services/route53"
 
-[dependencies.rusoto_route53domains]
+[dependencies.mz_rusoto_route53domains]
 optional = true
 path = "../rusoto/services/route53domains"
 
-[dependencies.rusoto_s3]
+[dependencies.mz_rusoto_s3]
 optional = true
 path = "../rusoto/services/s3"
 
-[dependencies.rusoto_sagemaker]
+[dependencies.mz_rusoto_sagemaker]
 optional = true
 path = "../rusoto/services/sagemaker"
 
-[dependencies.rusoto_sagemaker_runtime]
+[dependencies.mz_rusoto_sagemaker_runtime]
 optional = true
 path = "../rusoto/services/sagemaker-runtime"
 
-[dependencies.rusoto_sdb]
+[dependencies.mz_rusoto_sdb]
 optional = true
 path = "../rusoto/services/sdb"
 
-[dependencies.rusoto_secretsmanager]
+[dependencies.mz_rusoto_secretsmanager]
 optional = true
 path = "../rusoto/services/secretsmanager"
 
-[dependencies.rusoto_securityhub]
+[dependencies.mz_rusoto_securityhub]
 optional = true
 path = "../rusoto/services/securityhub"
 
-[dependencies.rusoto_serverlessrepo]
+[dependencies.mz_rusoto_serverlessrepo]
 optional = true
 path = "../rusoto/services/serverlessrepo"
 
-[dependencies.rusoto_servicecatalog]
+[dependencies.mz_rusoto_servicecatalog]
 optional = true
 path = "../rusoto/services/servicecatalog"
 
-[dependencies.rusoto_servicediscovery]
+[dependencies.mz_rusoto_servicediscovery]
 optional = true
 path = "../rusoto/services/servicediscovery"
 
-[dependencies.rusoto_ses]
+[dependencies.mz_rusoto_ses]
 optional = true
 path = "../rusoto/services/ses"
 
-[dependencies.rusoto_shield]
+[dependencies.mz_rusoto_shield]
 optional = true
 path = "../rusoto/services/shield"
 
-[dependencies.rusoto_sms]
+[dependencies.mz_rusoto_sms]
 optional = true
 path = "../rusoto/services/sms"
 
-[dependencies.rusoto_snowball]
+[dependencies.mz_rusoto_snowball]
 optional = true
 path = "../rusoto/services/snowball"
 
-[dependencies.rusoto_sns]
+[dependencies.mz_rusoto_sns]
 optional = true
 path = "../rusoto/services/sns"
 
-[dependencies.rusoto_sqs]
+[dependencies.mz_rusoto_sqs]
 optional = true
 path = "../rusoto/services/sqs"
 
-[dependencies.rusoto_ssm]
+[dependencies.mz_rusoto_ssm]
 optional = true
 path = "../rusoto/services/ssm"
 
-[dependencies.rusoto_stepfunctions]
+[dependencies.mz_rusoto_stepfunctions]
 optional = true
 path = "../rusoto/services/stepfunctions"
 
-[dependencies.rusoto_storagegateway]
+[dependencies.mz_rusoto_storagegateway]
 optional = true
 path = "../rusoto/services/storagegateway"
 
-[dependencies.rusoto_sts]
+[dependencies.mz_rusoto_sts]
 optional = true
 path = "../rusoto/services/sts"
 
-[dependencies.rusoto_support]
+[dependencies.mz_rusoto_support]
 optional = true
 path = "../rusoto/services/support"
 
-[dependencies.rusoto_swf]
+[dependencies.mz_rusoto_swf]
 optional = true
 path = "../rusoto/services/swf"
 
-[dependencies.rusoto_transcribe]
+[dependencies.mz_rusoto_transcribe]
 optional = true
 path = "../rusoto/services/transcribe"
 
-[dependencies.rusoto_transfer]
+[dependencies.mz_rusoto_transfer]
 optional = true
 path = "../rusoto/services/transfer"
 
-[dependencies.rusoto_translate]
+[dependencies.mz_rusoto_translate]
 optional = true
 path = "../rusoto/services/translate"
 
-[dependencies.rusoto_waf]
+[dependencies.mz_rusoto_waf]
 optional = true
 path = "../rusoto/services/waf"
 
-[dependencies.rusoto_waf_regional]
+[dependencies.mz_rusoto_waf_regional]
 optional = true
 path = "../rusoto/services/waf-regional"
 
-[dependencies.rusoto_workdocs]
+[dependencies.mz_rusoto_workdocs]
 optional = true
 path = "../rusoto/services/workdocs"
 
-[dependencies.rusoto_worklink]
+[dependencies.mz_rusoto_worklink]
 optional = true
 path = "../rusoto/services/worklink"
 
-[dependencies.rusoto_workmail]
+[dependencies.mz_rusoto_workmail]
 optional = true
 path = "../rusoto/services/workmail"
 
-[dependencies.rusoto_workspaces]
+[dependencies.mz_rusoto_workspaces]
 optional = true
 path = "../rusoto/services/workspaces"
 
-[dependencies.rusoto_xray]
+[dependencies.mz_rusoto_xray]
 optional = true
 path = "../rusoto/services/xray"
 
-[dependencies.rusoto_amplify]
+[dependencies.mz_rusoto_amplify]
 optional = true
 path = "../rusoto/services/amplify"
 
-[dependencies.rusoto_apigatewaymanagementapi]
+[dependencies.mz_rusoto_apigatewaymanagementapi]
 optional = true
 path = "../rusoto/services/apigatewaymanagementapi"
 
-[dependencies.rusoto_apigatewayv2]
+[dependencies.mz_rusoto_apigatewayv2]
 optional = true
 path = "../rusoto/services/apigatewayv2"
 
-[dependencies.rusoto_qldb]
+[dependencies.mz_rusoto_qldb]
 optional = true
 path = "../rusoto/services/qldb"
 
-[dependencies.rusoto_ram]
+[dependencies.mz_rusoto_ram]
 optional = true
 path = "../rusoto/services/ram"
 
@@ -822,165 +822,165 @@ all = [
 	"qldb"
 	]
 core = []
-acm = ["rusoto_acm"]
-acm-pca = ["rusoto_acm_pca"]
-alexaforbusiness = ["rusoto_alexaforbusiness"]
-apigateway = ["rusoto_apigateway"]
-application-autoscaling = ["rusoto_application_autoscaling"]
-appmesh = ["rusoto_appmesh"]
-appstream = ["rusoto_appstream"]
-appsync = ["rusoto_appsync"]
-athena = ["rusoto_athena"]
-autoscaling = ["rusoto_autoscaling"]
-autoscaling-plans = ["rusoto_autoscaling_plans"]
-batch = ["rusoto_batch"]
-budgets = ["rusoto_budgets"]
-ce = ["rusoto_ce"]
-chime = ["rusoto_chime"]
-cloud9 = ["rusoto_cloud9"]
-clouddirectory = ["rusoto_clouddirectory"]
-cloudformation = ["rusoto_cloudformation"]
-cloudfront = ["rusoto_cloudfront"]
-cloudhsm = ["rusoto_cloudhsm"]
-cloudhsmv2 = ["rusoto_cloudhsmv2"]
-cloudsearch = ["rusoto_cloudsearch"]
-cloudsearchdomain = ["rusoto_cloudsearchdomain"]
-cloudtrail = ["rusoto_cloudtrail"]
-cloudwatch = ["rusoto_cloudwatch"]
-codebuild = ["rusoto_codebuild"]
-codecommit = ["rusoto_codecommit"]
-codedeploy = ["rusoto_codedeploy"]
-codepipeline = ["rusoto_codepipeline"]
-codestar = ["rusoto_codestar"]
-cognito-identity = ["rusoto_cognito_identity", "rusoto_iam"]
-cognito-idp = ["rusoto_cognito_idp"]
-cognito-sync = ["rusoto_cognito_sync"]
-comprehend = ["rusoto_comprehend"]
-comprehendmedical = ["rusoto_comprehendmedical"]
-config = ["rusoto_config"]
-connect = ["rusoto_connect"]
-cur = ["rusoto_cur"]
-datapipeline = ["rusoto_datapipeline"]
-dax = ["rusoto_dax"]
-devicefarm = ["rusoto_devicefarm"]
-directconnect = ["rusoto_directconnect"]
-discovery = ["rusoto_discovery"]
-dms = ["rusoto_dms"]
-docdb = ["rusoto_docdb"]
-ds = ["rusoto_ds"]
-dynamodb = ["rusoto_dynamodb"]
-dynamodbstreams = ["rusoto_dynamodbstreams"]
-ec2 = ["rusoto_ec2"]
-ec2-instance-connect = ["rusoto_ec2_instance_connect"]
-ecr = ["rusoto_ecr"]
-ecs = ["rusoto_ecs"]
-elasticache = ["rusoto_elasticache"]
-elasticbeanstalk = ["rusoto_elasticbeanstalk"]
-efs = ["rusoto_efs"]
-eks = ["rusoto_eks"]
-elastictranscoder = ["rusoto_elastictranscoder"]
-elb = ["rusoto_elb"]
-elbv2 = ["rusoto_elbv2"]
-emr = ["rusoto_emr"]
-events = ["rusoto_events"]
-firehose = ["rusoto_firehose"]
-fms = ["rusoto_fms"]
-fsx = ["rusoto_fsx"]
-gamelift = ["rusoto_gamelift"]
-glacier = ["rusoto_glacier"]
-glue = ["rusoto_glue"]
-greengrass = ["rusoto_greengrass"]
-guardduty = ["rusoto_guardduty"]
-iam = ["rusoto_iam"]
-importexport = ["rusoto_importexport"]
-inspector = ["rusoto_inspector"]
-iot = ["rusoto_iot"]
-iotanalytics = ["rusoto_iotanalytics"]
-iotdata = ["rusoto_iot_data"]
-iotjobsdata = ["rusoto_iot_jobs_data"]
-iotsecuretunneling = ["rusoto_iotsecuretunneling"]
-iot1clickdevices = ["rusoto_iot1click_devices"]
-iot1clickprojects = ["rusoto_iot1click_projects"]
-kafka = ["rusoto_kafka"]
-kinesis = ["rusoto_kinesis"]
-kinesisanalytics = ["rusoto_kinesisanalytics"]
-kinesisvideo = ["rusoto_kinesisvideo"]
-kinesisvideomedia = ["rusoto_kinesis_video_media"]
-kinesisvideoarchivedmedia = ["rusoto_kinesis_video_archived_media"]
-kms = ["rusoto_kms"]
-lambda = ["rusoto_lambda"]
-license-manager = ["rusoto_license_manager"]
-lightsail = ["rusoto_lightsail"]
-lex-models = ["rusoto_lex_models"]
-lex-runtime = ["rusoto_lex_runtime"]
-logs = ["rusoto_logs", "rusoto_core/encoding"]
-neptune = ["rusoto_neptune"]
-machinelearning = ["rusoto_machinelearning"]
-macie = ["rusoto_macie"]
-marketplacecommerceanalytics = ["rusoto_marketplacecommerceanalytics"]
-marketplace-entitlement = ["rusoto_marketplace_entitlement"]
-mediaconvert = ["rusoto_mediaconvert"]
-medialive = ["rusoto_medialive"]
-mediapackage = ["rusoto_mediapackage"]
-mediastore = ["rusoto_mediastore"]
-mediatailor = ["rusoto_mediatailor"]
-mgh = ["rusoto_mgh"]
-mobile = ["rusoto_mobile"]
-mq = ["rusoto_mq"]
-mturk = ["rusoto_mturk"]
-opsworks = ["rusoto_opsworks"]
-opsworkscm = ["rusoto_opsworkscm"]
-organizations = ["rusoto_organizations"]
-pi = ["rusoto_pi"]
-polly = ["rusoto_polly"]
-pricing = ["rusoto_pricing"]
-redshift = ["rusoto_redshift"]
-rekognition = ["rusoto_rekognition"]
-resource-groups = ["rusoto_resource_groups"]
-resourcegroupstaggingapi = ["rusoto_resourcegroupstaggingapi"]
-rds = ["rusoto_rds"]
-rds-data = ["rusoto_rds_data"]
-route53 = ["rusoto_route53"]
-route53domains = ["rusoto_route53domains"]
-s3 = ["rusoto_s3"]
-sagemaker = ["rusoto_sagemaker"]
-sagemaker-runtime = ["rusoto_sagemaker_runtime"]
-sdb = ["rusoto_sdb"]
-secretsmanager = ["rusoto_secretsmanager"]
-securityhub = ["rusoto_securityhub"]
-serverlessrepo = ["rusoto_serverlessrepo"]
-servicecatalog = ["rusoto_servicecatalog"]
-servicediscovery = ["rusoto_servicediscovery"]
-shield = ["rusoto_shield"]
-ses = ["rusoto_ses"]
-sms = ["rusoto_sms"]
-snowball = ["rusoto_snowball"]
-sns = ["rusoto_sns"]
-sqs = ["rusoto_sqs"]
-ssm = ["rusoto_ssm"]
-stepfunctions = ["rusoto_stepfunctions"]
-storagegateway = ["rusoto_storagegateway"]
-sts = ["rusoto_sts", "rusoto_ec2"]
-support = ["rusoto_support"]
-swf = ["rusoto_swf"]
-transcribe = ["rusoto_transcribe"]
-transfer = ["rusoto_transfer"]
-translate = ["rusoto_translate"]
-waf = ["rusoto_waf"]
-waf-regional = ["rusoto_waf_regional"]
-workmail = ["rusoto_workmail"]
-workspaces = ["rusoto_workspaces"]
-workdocs = ["rusoto_workdocs"]
-worklink = ["rusoto_worklink"]
-xray = ["rusoto_xray"]
-amplify = ["rusoto_amplify"]
-apigatewaymanagementapi = ["rusoto_apigatewaymanagementapi"]
-apigatewayv2 = ["rusoto_apigatewayv2"]
-ram = ["rusoto_ram"]
-qldb = ["rusoto_qldb"]
-nightly-testing = ["rusoto_core/nightly-testing"]
+acm = ["mz_rusoto_acm"]
+acm-pca = ["mz_rusoto_acm_pca"]
+alexaforbusiness = ["mz_rusoto_alexaforbusiness"]
+apigateway = ["mz_rusoto_apigateway"]
+application-autoscaling = ["mz_rusoto_application_autoscaling"]
+appmesh = ["mz_rusoto_appmesh"]
+appstream = ["mz_rusoto_appstream"]
+appsync = ["mz_rusoto_appsync"]
+athena = ["mz_rusoto_athena"]
+autoscaling = ["mz_rusoto_autoscaling"]
+autoscaling-plans = ["mz_rusoto_autoscaling_plans"]
+batch = ["mz_rusoto_batch"]
+budgets = ["mz_rusoto_budgets"]
+ce = ["mz_rusoto_ce"]
+chime = ["mz_rusoto_chime"]
+cloud9 = ["mz_rusoto_cloud9"]
+clouddirectory = ["mz_rusoto_clouddirectory"]
+cloudformation = ["mz_rusoto_cloudformation"]
+cloudfront = ["mz_rusoto_cloudfront"]
+cloudhsm = ["mz_rusoto_cloudhsm"]
+cloudhsmv2 = ["mz_rusoto_cloudhsmv2"]
+cloudsearch = ["mz_rusoto_cloudsearch"]
+cloudsearchdomain = ["mz_rusoto_cloudsearchdomain"]
+cloudtrail = ["mz_rusoto_cloudtrail"]
+cloudwatch = ["mz_rusoto_cloudwatch"]
+codebuild = ["mz_rusoto_codebuild"]
+codecommit = ["mz_rusoto_codecommit"]
+codedeploy = ["mz_rusoto_codedeploy"]
+codepipeline = ["mz_rusoto_codepipeline"]
+codestar = ["mz_rusoto_codestar"]
+cognito-identity = ["mz_rusoto_cognito_identity", "mz_rusoto_iam"]
+cognito-idp = ["mz_rusoto_cognito_idp"]
+cognito-sync = ["mz_rusoto_cognito_sync"]
+comprehend = ["mz_rusoto_comprehend"]
+comprehendmedical = ["mz_rusoto_comprehendmedical"]
+config = ["mz_rusoto_config"]
+connect = ["mz_rusoto_connect"]
+cur = ["mz_rusoto_cur"]
+datapipeline = ["mz_rusoto_datapipeline"]
+dax = ["mz_rusoto_dax"]
+devicefarm = ["mz_rusoto_devicefarm"]
+directconnect = ["mz_rusoto_directconnect"]
+discovery = ["mz_rusoto_discovery"]
+dms = ["mz_rusoto_dms"]
+docdb = ["mz_rusoto_docdb"]
+ds = ["mz_rusoto_ds"]
+dynamodb = ["mz_rusoto_dynamodb"]
+dynamodbstreams = ["mz_rusoto_dynamodbstreams"]
+ec2 = ["mz_rusoto_ec2"]
+ec2-instance-connect = ["mz_rusoto_ec2_instance_connect"]
+ecr = ["mz_rusoto_ecr"]
+ecs = ["mz_rusoto_ecs"]
+elasticache = ["mz_rusoto_elasticache"]
+elasticbeanstalk = ["mz_rusoto_elasticbeanstalk"]
+efs = ["mz_rusoto_efs"]
+eks = ["mz_rusoto_eks"]
+elastictranscoder = ["mz_rusoto_elastictranscoder"]
+elb = ["mz_rusoto_elb"]
+elbv2 = ["mz_rusoto_elbv2"]
+emr = ["mz_rusoto_emr"]
+events = ["mz_rusoto_events"]
+firehose = ["mz_rusoto_firehose"]
+fms = ["mz_rusoto_fms"]
+fsx = ["mz_rusoto_fsx"]
+gamelift = ["mz_rusoto_gamelift"]
+glacier = ["mz_rusoto_glacier"]
+glue = ["mz_rusoto_glue"]
+greengrass = ["mz_rusoto_greengrass"]
+guardduty = ["mz_rusoto_guardduty"]
+iam = ["mz_rusoto_iam"]
+importexport = ["mz_rusoto_importexport"]
+inspector = ["mz_rusoto_inspector"]
+iot = ["mz_rusoto_iot"]
+iotanalytics = ["mz_rusoto_iotanalytics"]
+iotdata = ["mz_rusoto_iot_data"]
+iotjobsdata = ["mz_rusoto_iot_jobs_data"]
+iotsecuretunneling = ["mz_rusoto_iotsecuretunneling"]
+iot1clickdevices = ["mz_rusoto_iot1click_devices"]
+iot1clickprojects = ["mz_rusoto_iot1click_projects"]
+kafka = ["mz_rusoto_kafka"]
+kinesis = ["mz_rusoto_kinesis"]
+kinesisanalytics = ["mz_rusoto_kinesisanalytics"]
+kinesisvideo = ["mz_rusoto_kinesisvideo"]
+kinesisvideomedia = ["mz_rusoto_kinesis_video_media"]
+kinesisvideoarchivedmedia = ["mz_rusoto_kinesis_video_archived_media"]
+kms = ["mz_rusoto_kms"]
+lambda = ["mz_rusoto_lambda"]
+license-manager = ["mz_rusoto_license_manager"]
+lightsail = ["mz_rusoto_lightsail"]
+lex-models = ["mz_rusoto_lex_models"]
+lex-runtime = ["mz_rusoto_lex_runtime"]
+logs = ["mz_rusoto_logs", "mz_rusoto_core/encoding"]
+neptune = ["mz_rusoto_neptune"]
+machinelearning = ["mz_rusoto_machinelearning"]
+macie = ["mz_rusoto_macie"]
+marketplacecommerceanalytics = ["mz_rusoto_marketplacecommerceanalytics"]
+marketplace-entitlement = ["mz_rusoto_marketplace_entitlement"]
+mediaconvert = ["mz_rusoto_mediaconvert"]
+medialive = ["mz_rusoto_medialive"]
+mediapackage = ["mz_rusoto_mediapackage"]
+mediastore = ["mz_rusoto_mediastore"]
+mediatailor = ["mz_rusoto_mediatailor"]
+mgh = ["mz_rusoto_mgh"]
+mobile = ["mz_rusoto_mobile"]
+mq = ["mz_rusoto_mq"]
+mturk = ["mz_rusoto_mturk"]
+opsworks = ["mz_rusoto_opsworks"]
+opsworkscm = ["mz_rusoto_opsworkscm"]
+organizations = ["mz_rusoto_organizations"]
+pi = ["mz_rusoto_pi"]
+polly = ["mz_rusoto_polly"]
+pricing = ["mz_rusoto_pricing"]
+redshift = ["mz_rusoto_redshift"]
+rekognition = ["mz_rusoto_rekognition"]
+resource-groups = ["mz_rusoto_resource_groups"]
+resourcegroupstaggingapi = ["mz_rusoto_resourcegroupstaggingapi"]
+rds = ["mz_rusoto_rds"]
+rds-data = ["mz_rusoto_rds_data"]
+route53 = ["mz_rusoto_route53"]
+route53domains = ["mz_rusoto_route53domains"]
+s3 = ["mz_rusoto_s3"]
+sagemaker = ["mz_rusoto_sagemaker"]
+sagemaker-runtime = ["mz_rusoto_sagemaker_runtime"]
+sdb = ["mz_rusoto_sdb"]
+secretsmanager = ["mz_rusoto_secretsmanager"]
+securityhub = ["mz_rusoto_securityhub"]
+serverlessrepo = ["mz_rusoto_serverlessrepo"]
+servicecatalog = ["mz_rusoto_servicecatalog"]
+servicediscovery = ["mz_rusoto_servicediscovery"]
+shield = ["mz_rusoto_shield"]
+ses = ["mz_rusoto_ses"]
+sms = ["mz_rusoto_sms"]
+snowball = ["mz_rusoto_snowball"]
+sns = ["mz_rusoto_sns"]
+sqs = ["mz_rusoto_sqs"]
+ssm = ["mz_rusoto_ssm"]
+stepfunctions = ["mz_rusoto_stepfunctions"]
+storagegateway = ["mz_rusoto_storagegateway"]
+sts = ["mz_rusoto_sts", "mz_rusoto_ec2"]
+support = ["mz_rusoto_support"]
+swf = ["mz_rusoto_swf"]
+transcribe = ["mz_rusoto_transcribe"]
+transfer = ["mz_rusoto_transfer"]
+translate = ["mz_rusoto_translate"]
+waf = ["mz_rusoto_waf"]
+waf-regional = ["mz_rusoto_waf_regional"]
+workmail = ["mz_rusoto_workmail"]
+workspaces = ["mz_rusoto_workspaces"]
+workdocs = ["mz_rusoto_workdocs"]
+worklink = ["mz_rusoto_worklink"]
+xray = ["mz_rusoto_xray"]
+amplify = ["mz_rusoto_amplify"]
+apigatewaymanagementapi = ["mz_rusoto_apigatewaymanagementapi"]
+apigatewayv2 = ["mz_rusoto_apigatewayv2"]
+ram = ["mz_rusoto_ram"]
+qldb = ["mz_rusoto_qldb"]
+nightly-testing = ["mz_rusoto_core/nightly-testing"]
 disable_ceph_unsupported = []
 disable_minio_unsupported = []
 default = ["native-tls"]
-native-tls = ["rusoto_core/native-tls"]
-rustls = ["rusoto_core/rustls"]
+native-tls = ["mz_rusoto_core/native-tls"]
+rustls = ["mz_rusoto_core/rustls"]

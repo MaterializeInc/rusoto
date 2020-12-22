@@ -16,6 +16,7 @@ pub struct Manifest {
     #[serde(serialize_with = "toml::ser::tables_last")]
     pub dev_dependencies: BTreeMap<String, Dependency>,
     pub features: Option<BTreeMap<String, Vec<String>>>,
+    pub lib: Lib,
 }
 
 #[derive(Debug, Default, Deserialize, Serialize)]
@@ -35,6 +36,11 @@ pub struct Metadata {
     #[serde(serialize_with = "toml::ser::tables_last")]
     #[serde(skip_serializing_if = "BTreeMap::is_empty")]
     pub metadata: BTreeMap<String, toml::Value>,
+}
+
+#[derive(Debug, Default, Deserialize, Serialize)]
+pub struct Lib {
+    pub name: String,
 }
 
 #[derive(Debug, Deserialize, Serialize)]
