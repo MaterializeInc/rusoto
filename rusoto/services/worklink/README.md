@@ -34,7 +34,7 @@ To use `mz_rusoto_worklink` in your application, add it as a dependency in your 
 
 ```toml
 [dependencies]
-mz_rusoto_worklink = "0.45.0"
+mz_rusoto_worklink = "0.46.0"
 ```
 
 ## Crate Features

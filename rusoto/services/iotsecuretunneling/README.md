@@ -34,7 +34,7 @@ To use `mz_rusoto_iotsecuretunneling` in your application, add it as a dependenc
 
 ```toml
 [dependencies]
-mz_rusoto_iotsecuretunneling = "0.45.0"
+mz_rusoto_iotsecuretunneling = "0.46.0"
 ```
 
 ## Crate Features

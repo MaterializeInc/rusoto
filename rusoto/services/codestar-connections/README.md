@@ -34,7 +34,7 @@ To use `mz_rusoto_codestar_connections` in your application, add it as a depende
 
 ```toml
 [dependencies]
-mz_rusoto_codestar_connections = "0.45.0"
+mz_rusoto_codestar_connections = "0.46.0"
 ```
 
 ## Crate Features

@@ -34,7 +34,7 @@ To use `mz_rusoto_sagemaker_runtime` in your application, add it as a dependency
 
 ```toml
 [dependencies]
-mz_rusoto_sagemaker_runtime = "0.45.0"
+mz_rusoto_sagemaker_runtime = "0.46.0"
 ```
 
 ## Crate Features

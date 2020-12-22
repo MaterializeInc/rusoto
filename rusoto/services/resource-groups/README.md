@@ -34,7 +34,7 @@ To use `mz_rusoto_resource_groups` in your application, add it as a dependency i
 
 ```toml
 [dependencies]
-mz_rusoto_resource_groups = "0.45.0"
+mz_rusoto_resource_groups = "0.46.0"
 ```
 
 ## Crate Features

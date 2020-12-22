@@ -34,7 +34,7 @@ To use `mz_rusoto_cloudsearch` in your application, add it as a dependency in yo
 
 ```toml
 [dependencies]
-mz_rusoto_cloudsearch = "0.45.0"
+mz_rusoto_cloudsearch = "0.46.0"
 ```
 
 ## Crate Features

@@ -34,7 +34,7 @@ To use `mz_rusoto_fsx` in your application, add it as a dependency in your `Carg
 
 ```toml
 [dependencies]
-mz_rusoto_fsx = "0.45.0"
+mz_rusoto_fsx = "0.46.0"
 ```
 
 ## Crate Features

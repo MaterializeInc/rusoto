@@ -34,7 +34,7 @@ To use `mz_rusoto_application_insights` in your application, add it as a depende
 
 ```toml
 [dependencies]
-mz_rusoto_application_insights = "0.45.0"
+mz_rusoto_application_insights = "0.46.0"
 ```
 
 ## Crate Features

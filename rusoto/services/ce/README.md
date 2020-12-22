@@ -34,7 +34,7 @@ To use `mz_rusoto_ce` in your application, add it as a dependency in your `Cargo
 
 ```toml
 [dependencies]
-mz_rusoto_ce = "0.45.0"
+mz_rusoto_ce = "0.46.0"
 ```
 
 ## Crate Features

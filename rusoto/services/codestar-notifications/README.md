@@ -34,7 +34,7 @@ To use `mz_rusoto_codestar_notifications` in your application, add it as a depen
 
 ```toml
 [dependencies]
-mz_rusoto_codestar_notifications = "0.45.0"
+mz_rusoto_codestar_notifications = "0.46.0"
 ```
 
 ## Crate Features

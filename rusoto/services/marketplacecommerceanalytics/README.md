@@ -34,7 +34,7 @@ To use `mz_rusoto_marketplacecommerceanalytics` in your application, add it as a
 
 ```toml
 [dependencies]
-mz_rusoto_marketplacecommerceanalytics = "0.45.0"
+mz_rusoto_marketplacecommerceanalytics = "0.46.0"
 ```
 
 ## Crate Features

@@ -34,7 +34,7 @@ To use `mz_rusoto_kinesis_video_archived_media` in your application, add it as a
 
 ```toml
 [dependencies]
-mz_rusoto_kinesis_video_archived_media = "0.45.0"
+mz_rusoto_kinesis_video_archived_media = "0.46.0"
 ```
 
 ## Crate Features

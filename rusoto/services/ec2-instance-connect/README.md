@@ -34,7 +34,7 @@ To use `mz_rusoto_ec2_instance_connect` in your application, add it as a depende
 
 ```toml
 [dependencies]
-mz_rusoto_ec2_instance_connect = "0.45.0"
+mz_rusoto_ec2_instance_connect = "0.46.0"
 ```
 
 ## Crate Features

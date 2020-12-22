@@ -34,7 +34,7 @@ To use `mz_rusoto_docdb` in your application, add it as a dependency in your `Ca
 
 ```toml
 [dependencies]
-mz_rusoto_docdb = "0.45.0"
+mz_rusoto_docdb = "0.46.0"
 ```
 
 ## Crate Features

@@ -34,7 +34,7 @@ To use `mz_rusoto_autoscaling_plans` in your application, add it as a dependency
 
 ```toml
 [dependencies]
-mz_rusoto_autoscaling_plans = "0.45.0"
+mz_rusoto_autoscaling_plans = "0.46.0"
 ```
 
 ## Crate Features

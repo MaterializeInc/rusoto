@@ -34,7 +34,7 @@ To use `mz_rusoto_securityhub` in your application, add it as a dependency in yo
 
 ```toml
 [dependencies]
-mz_rusoto_securityhub = "0.45.0"
+mz_rusoto_securityhub = "0.46.0"
 ```
 
 ## Crate Features

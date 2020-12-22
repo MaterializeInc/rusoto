@@ -34,7 +34,7 @@ To use `mz_rusoto_kendra` in your application, add it as a dependency in your `C
 
 ```toml
 [dependencies]
-mz_rusoto_kendra = "0.45.0"
+mz_rusoto_kendra = "0.46.0"
 ```
 
 ## Crate Features
