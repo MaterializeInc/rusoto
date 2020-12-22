@@ -388,7 +388,7 @@ such as an S3 key returned in `list_objects_v2`
 - travis-cargo from TravisCI builds
 
 [Unreleased]: https://github.com/MaterializeInc/rusoto/compare/rusoto-v0.46.0...HEAD
-[0.45.0]: https://github.com/MaterializeInc/rusoto/compare/rusoto-v0.45.0...rusoto-v0.46.0
+[0.46.0]: https://github.com/MaterializeInc/rusoto/compare/rusoto-v0.45.0...rusoto-v0.46.0
 [0.45.0]: https://github.com/rusoto/rusoto/compare/rusoto-v0.44.0...rusoto-v0.45.0
 [0.44.0]: https://github.com/rusoto/rusoto/compare/rusoto-v0.43.0...rusoto-v0.44.0
 [0.43.0]: https://github.com/rusoto/rusoto/compare/rusoto-v0.43.0-beta.1...rusoto-v0.43.0
